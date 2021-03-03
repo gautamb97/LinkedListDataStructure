@@ -17,4 +17,16 @@ public class MyStack {
     public INode peak() {
         return myLinkedList.head;
     }
+
+    public INode pop() {
+        return myLinkedList.pop();
+    }
+    public boolean isEmpty() {
+        if(this.myLinkedList.head == null){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }
