@@ -81,7 +81,7 @@ public class MyLinkedListTest {
         Assert.assertTrue(result);
     }
     @Test
-    public void given3NumbersSearchAnElementShouldPassLinkedListResult(){
+    public void given3NumbersSearchAnElementShouldPassLinkedListResult() {
         MyNode<Integer> myFirstNode = new MyNode<Integer>(56);
         MyNode<Integer> mySecondNode = new MyNode<Integer>(30);
         MyNode<Integer> myThirdNode = new MyNode<Integer>(70);
